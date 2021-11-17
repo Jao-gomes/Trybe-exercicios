@@ -1,1 +1,1 @@
-muita coisa para se tornar um progamador fullstack
+muita coisa para se tornar um programador fullstack
