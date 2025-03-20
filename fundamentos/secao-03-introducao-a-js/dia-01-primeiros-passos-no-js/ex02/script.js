@@ -1,7 +1,7 @@
 const base = 5;
 const height = 8;
-const area = (base * height);
+const area = base * height;
+const perimeter = 2*base + 2*height;
 
-const perimeterRetangle = 2*(base + height);
-
-console.log(perimeterRetangle);
+console.log(area);
+console.log(perimeter);
