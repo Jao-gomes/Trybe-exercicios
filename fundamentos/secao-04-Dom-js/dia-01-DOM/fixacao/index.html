@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Filmes</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #121212; color: white; text-align: center; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .movie-poster { max-width: 300px; height: auto; border-radius: 10px; }
+        .video-container { margin-top: 20px; }
+        video { width: 100%; max-width: 720px; border: 2px solid #333; }
+        .description { margin-top: 15px; color: #ccc; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id= "title">Nome do Filme</h1>
+        
+        <!-- Imagem do Pôster -->
+        <img src="poster.jpg" alt="Pôster do Filme" class="movie-poster">
+        
+        <h2 id= "sub-title">teste</h2>
+
+        <p>Star Wars: Episódio I – A Ameaça Fantasma (1999) teve direção de George Lucas, que retornou à franquia para contar os eventos que antecedem a trilogia clássica. O roteiro também foi escrito por George Lucas, apresentando a ascensão do lado sombrio, a infância de Anakin Skywalker e os primeiros sinais da queda da República Galáctica. 🌌⚔️</p>
+
+        <h3>Sinopse</h3>
+        
+        <p class="description">
+            Sinopse: Um pequeno resumo sobre o filme, sua história e elenco.
+        </p>
+
+        <!-- Player de Vídeo HTML5 -->
+        <div class="video-container">
+            <h2>Assista ao Trailer</h2>
+            <video controls>
+                <source src="trailer.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+    </div>
+    <script src="fixacao01.js"></script>
+</body>
+</html>
