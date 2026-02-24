@@ -89,3 +89,4 @@ firstLi.addEventListener('dblclick', resetText);
 //     testList[1].classList.add('tech');
 //     testList[2].classList.add('tech');
 //}
+
