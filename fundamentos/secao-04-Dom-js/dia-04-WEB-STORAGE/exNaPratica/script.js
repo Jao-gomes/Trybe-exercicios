@@ -122,3 +122,4 @@ const fontFamilyLocalStorage = () => {
   localStorage.setItem('font-family', fontFamily);
 }
 
+console.log(document.getElementsByClassName('.content'));
